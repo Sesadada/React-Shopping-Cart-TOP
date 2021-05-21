@@ -1,10 +1,9 @@
 import Grid from '../components/Grid';
 import Hero from '../components/Hero';
-
-const Home = () => {
+const Home = ({ toggle, isOpen }) => {
 	return (
 		<>
-			<Hero />
+			<Hero toggle={toggle} isOpen={isOpen} />
 			<Grid />
 		</>
 	);

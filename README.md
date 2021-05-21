@@ -1,3 +1,3 @@
 # Witchcraft Tote bags
 
-Shopping cart made with React for The Odin Project
+Shopping cart made with React and Tailwind for The Odin Project

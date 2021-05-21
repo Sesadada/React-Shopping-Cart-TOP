@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Fade from 'react-reveal/Fade';
 
-const Navbar = ({ toggle, cart }) => {
+const Navbar = ({ toggle, total }) => {
 	return (
 		<Fade top cascade>
 			<nav
@@ -11,12 +11,9 @@ const Navbar = ({ toggle, cart }) => {
 			>
 				<Link to='/'>
 					<div>
-						<h1 className='text-3xl md:pt-6 md:text-5xl font-bold text-white text-center pl-4'>
+						<h1 className='text-3xl font-bold text-white text-center pl-4  lg:text-4xl'>
 							Witchcraft
 						</h1>
-						<h2 className='hidden md:block md:text-xs md:py-1 md:text-center md:border md:ml-4'>
-							Tote Bags & Tea Towels made with a spell
-						</h2>
 					</div>
 				</Link>
 				<div className='px-4 cursor-pointer md:hidden' onClick={toggle}>
@@ -41,12 +38,12 @@ const Navbar = ({ toggle, cart }) => {
 						Home
 					</Link>
 					<Link to='/yourcart' className='p-4 font-bold'>
-						Your Cart ( {cart.length} )
+						Your Cart ( {total} )
 					</Link>
 					<Link to='/about' className='p-4 font-bold'>
 						About
 					</Link>
-					<Link to='contact' className='p-4 font-bold'>
+					<Link to='/contact' className='p-4 font-bold'>
 						Contact
 					</Link>
 				</div>
