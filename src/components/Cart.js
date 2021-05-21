@@ -1,4 +1,4 @@
-import React from 'react';
+import { useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEuroSign } from '@fortawesome/free-solid-svg-icons';
@@ -21,6 +21,10 @@ const Cart = ({ cart, totalP, remove, add }) => {
 	const shipping = (n) => {
 		return n > 4 ? 15 : 10;
 	};
+
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
 
 	const prodCost = total(cart);
 	const shipCost = shipping(totalP);
