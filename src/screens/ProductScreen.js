@@ -12,6 +12,8 @@ const ProductScreen = ({ match, addToCart, cart }) => {
 	const element = <FontAwesomeIcon icon={faEuroSign} size='1x' />;
 
 	useEffect(() => {
+		window.scrollTo(0, 0);
+
 		const item = products.filter((prod) => prod._id === num);
 		setState(...item);
 	}, [match.params.id, num]);
@@ -42,7 +44,7 @@ const ProductScreen = ({ match, addToCart, cart }) => {
 					<div className='grid grid-cols-3 gap-1'>
 						<button
 							onClick={() => addToCart(state)}
-							className='focus:outline-none my-10 bg-pink-400 hover:shadow-md hover:bg-pink-600 text-white font-bold py-2 px-4 rounded-full shadow-xl'
+							className='focus:outline-none  my-10 bg-pink-400 active:bg-yellow-400 hover:shadow-md hover:bg-pink-600 text-white font-bold py-2 px-4 rounded-full shadow-xl'
 						>
 							Add to cart
 						</button>{' '}

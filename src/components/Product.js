@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Product = ({ product }) => {
 	const slug = product.name.replace(/\s/g, '-');
-
+	console.log(product.image);
 	return (
 		<div className='bg-pink-400'>
 			<Link to={`/productscreen/${slug}-${product._id}/`}>
@@ -18,4 +18,3 @@ const Product = ({ product }) => {
 };
 
 export default Product;
-//<img src={product.image} alt={product.name} />

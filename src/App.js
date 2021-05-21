@@ -94,7 +94,7 @@ function App() {
 				<Switch>
 					<Route
 						exact
-						path='/'
+						path='/React-Shopping-Cart-TOP/'
 						render={(props) => (
 							<Home {...props} toggle={toggle} isOpen={isOpen} />
 						)}

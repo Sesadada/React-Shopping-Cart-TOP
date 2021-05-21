@@ -71,7 +71,7 @@ const Cart = ({ cart, totalP, remove, add }) => {
 									</button>
 									<button
 										onClick={() => add(item)}
-										className='focus:outline-none w-2/4  text-sm bg-pink-400 hover:bg-pink-600 text-white mb-3 rounded-br-lg'
+										className='focus:outline-none w-2/4 border text-sm bg-pink-400 hover:bg-pink-600 text-white mb-3 rounded-br-lg'
 									>
 										Add Another One
 									</button>

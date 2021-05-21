@@ -9,7 +9,7 @@ const Navbar = ({ toggle, total }) => {
 				className='flex justify-between items-center h-16 text-white relative shadow-sm'
 				role='navigation'
 			>
-				<Link to='/'>
+				<Link to='/React-Shopping-Cart-TOP/'>
 					<div>
 						<h1 className='text-3xl font-bold text-white text-center pl-4  lg:text-4xl'>
 							Witchcraft
@@ -34,7 +34,7 @@ const Navbar = ({ toggle, total }) => {
 				</div>
 
 				<div className='pr-8 md:block hidden'>
-					<Link to='/' className='p-4 font-black	'>
+					<Link to='/React-Shopping-Cart-TOP/' className='p-4 font-black	'>
 						Home
 					</Link>
 					<Link to='/yourcart' className='p-4 font-bold'>
