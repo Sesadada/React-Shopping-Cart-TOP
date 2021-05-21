@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/React-Shopping-Cart-TOP-/static/css/main.9f869301.chunk.css",
-    "main.js": "/React-Shopping-Cart-TOP-/static/js/main.b7f892eb.chunk.js",
-    "main.js.map": "/React-Shopping-Cart-TOP-/static/js/main.b7f892eb.chunk.js.map",
-    "runtime-main.js": "/React-Shopping-Cart-TOP-/static/js/runtime-main.82dd735d.js",
-    "runtime-main.js.map": "/React-Shopping-Cart-TOP-/static/js/runtime-main.82dd735d.js.map",
-    "static/js/2.7c3eaca7.chunk.js": "/React-Shopping-Cart-TOP-/static/js/2.7c3eaca7.chunk.js",
-    "static/js/2.7c3eaca7.chunk.js.map": "/React-Shopping-Cart-TOP-/static/js/2.7c3eaca7.chunk.js.map",
-    "index.html": "/React-Shopping-Cart-TOP-/index.html",
-    "static/css/main.9f869301.chunk.css.map": "/React-Shopping-Cart-TOP-/static/css/main.9f869301.chunk.css.map",
-    "static/js/2.7c3eaca7.chunk.js.LICENSE.txt": "/React-Shopping-Cart-TOP-/static/js/2.7c3eaca7.chunk.js.LICENSE.txt",
-    "static/media/IMG_1.8e9eb993.JPEG": "/React-Shopping-Cart-TOP-/static/media/IMG_1.8e9eb993.JPEG"
+    "main.css": "/React-Shopping-Cart-TOP/static/css/main.9f869301.chunk.css",
+    "main.js": "/React-Shopping-Cart-TOP/static/js/main.b7f892eb.chunk.js",
+    "main.js.map": "/React-Shopping-Cart-TOP/static/js/main.b7f892eb.chunk.js.map",
+    "runtime-main.js": "/React-Shopping-Cart-TOP/static/js/runtime-main.c66443b6.js",
+    "runtime-main.js.map": "/React-Shopping-Cart-TOP/static/js/runtime-main.c66443b6.js.map",
+    "static/js/2.7c3eaca7.chunk.js": "/React-Shopping-Cart-TOP/static/js/2.7c3eaca7.chunk.js",
+    "static/js/2.7c3eaca7.chunk.js.map": "/React-Shopping-Cart-TOP/static/js/2.7c3eaca7.chunk.js.map",
+    "index.html": "/React-Shopping-Cart-TOP/index.html",
+    "static/css/main.9f869301.chunk.css.map": "/React-Shopping-Cart-TOP/static/css/main.9f869301.chunk.css.map",
+    "static/js/2.7c3eaca7.chunk.js.LICENSE.txt": "/React-Shopping-Cart-TOP/static/js/2.7c3eaca7.chunk.js.LICENSE.txt",
+    "static/media/IMG_1.8e9eb993.JPEG": "/React-Shopping-Cart-TOP/static/media/IMG_1.8e9eb993.JPEG"
   },
   "entrypoints": [
-    "static/js/runtime-main.82dd735d.js",
+    "static/js/runtime-main.c66443b6.js",
     "static/js/2.7c3eaca7.chunk.js",
     "static/css/main.9f869301.chunk.css",
     "static/js/main.b7f892eb.chunk.js"
