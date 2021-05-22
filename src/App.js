@@ -63,6 +63,14 @@ function App() {
 	};
 
 	useEffect(() => {
+		const handleScroll = () => {
+			const prevScrollpos = JSON.parse(JSON.stringify(state));
+			const currentScrollPos = window.pageYOffset;
+
+			const newVisible = prevScrollpos === currentScrollPos;
+			setState(currentScrollPos);
+			isVisible(newVisible);
+		};
 		const hideMenu = () => {
 			if (window.innerWidth > 768 && isOpen) {
 				setIsOpen(false);
@@ -75,16 +83,7 @@ function App() {
 			window.removeEventListener('resize', hideMenu);
 			window.removeEventListener('scroll', handleScroll);
 		};
-	}, [isOpen]);
-
-	const handleScroll = () => {
-		const prevScrollpos = JSON.parse(JSON.stringify(state));
-		const currentScrollPos = window.pageYOffset;
-
-		const newVisible = prevScrollpos === currentScrollPos;
-		setState(currentScrollPos);
-		isVisible(newVisible);
-	};
+	}, [isOpen, state]);
 
 	return (
 		<Router>
