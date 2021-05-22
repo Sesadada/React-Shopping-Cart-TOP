@@ -1,15 +1,12 @@
-const defaultTheme = require('tailwindcss/defaultTheme'); // import the defaul theme
-
 module.exports = {
 	purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
 	darkMode: false, // or 'media' or 'class'
 	theme: {
-		extend: {
-			// Insert the custom font families at the beginning of the array
-			fontFamily: {
-				sans: ['Monteserrat', ...defaultTheme.fontFamily.sans],
-			},
+		// Insert the custom font families at the beginning of the array
+		fontFamily: {
+			Montserrat: ['Monteserrat', 'sans-serif'],
 		},
+
 		fontSize: {
 			xs: '.65rem',
 			sm: '.875rem',
