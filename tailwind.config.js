@@ -4,7 +4,7 @@ module.exports = {
 	theme: {
 		// Insert the custom font families at the beginning of the array
 		fontFamily: {
-			Montserrat: ['Monteserrat', 'sans-serif'],
+			montserrat: ['Montserrat', 'sans-serif'],
 		},
 
 		fontSize: {
