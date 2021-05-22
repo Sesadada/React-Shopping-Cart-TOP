@@ -88,7 +88,7 @@ function App() {
 
 	return (
 		<Router>
-			<div onClick={isOpen ? toggle : undefined} className='h-screen bg-black'>
+			<div onClick={isOpen ? toggle : undefined} className='h-screen bg-black '>
 				<Navbar toggle={toggle} total={totalProd} />
 				<Dropdown isOpen={isOpen} toggle={toggle} />
 				<Switch>
